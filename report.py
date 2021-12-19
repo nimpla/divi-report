@@ -1,7 +1,14 @@
 import pandas as pd
+import argparse
 
-# file = 'data/test.csv'
-file = 'data/2021_12_14_Daten.csv'
+file = 'data/test.csv'
+
+ap = argparse.ArgumentParser()
+ap.add_argument('--file', type=str, action='store', help='CSV File')
+args = vars(ap.parse_args())
+
+if args['file']:
+    file = args['file']
 
 df = pd.read_csv(
     file,
