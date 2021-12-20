@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/divi-report/static/css/main.35fc4a5a.css",
+    "main.js": "/divi-report/static/js/main.698a43ec.js",
+    "index.html": "/divi-report/index.html",
+    "main.35fc4a5a.css.map": "/divi-report/static/css/main.35fc4a5a.css.map",
+    "main.698a43ec.js.map": "/divi-report/static/js/main.698a43ec.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.35fc4a5a.css",
+    "static/js/main.698a43ec.js"
+  ]
+}
