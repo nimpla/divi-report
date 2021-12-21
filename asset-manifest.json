@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/divi-report/static/css/main.35fc4a5a.css",
-    "main.js": "/divi-report/static/js/main.698a43ec.js",
+    "main.css": "/divi-report/static/css/main.05875bc5.css",
+    "main.js": "/divi-report/static/js/main.16d79418.js",
     "index.html": "/divi-report/index.html",
-    "main.35fc4a5a.css.map": "/divi-report/static/css/main.35fc4a5a.css.map",
-    "main.698a43ec.js.map": "/divi-report/static/js/main.698a43ec.js.map"
+    "main.05875bc5.css.map": "/divi-report/static/css/main.05875bc5.css.map",
+    "main.16d79418.js.map": "/divi-report/static/js/main.16d79418.js.map"
   },
   "entrypoints": [
-    "static/css/main.35fc4a5a.css",
-    "static/js/main.698a43ec.js"
+    "static/css/main.05875bc5.css",
+    "static/js/main.16d79418.js"
   ]
 }
