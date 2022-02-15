@@ -14,10 +14,10 @@ jobs:
     - run: |
           pip install -r requirements.txt
           python report.py
-    - uses: actions/checkout@v2
-    - name: Commit Report
-      run: |
-        git config --global user.name 'nimpla'
-        git config --global user.email '9716355+nimpla@users.noreply.github.com'
-        git commit -am "Update Data"
-        git push
+    # - uses: actions/checkout@v2
+    # - name: Commit Report
+    #   run: |
+    #     git config --global user.name 'nimpla'
+    #     git config --global user.email '9716355+nimpla@users.noreply.github.com'
+    #     git commit -am "Update Data"
+    #     git push
