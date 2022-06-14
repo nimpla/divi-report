@@ -6,7 +6,11 @@ import papa from 'papaparse';
 const App = () => {
     const [data, setData] = useState([]);
 
-    useEffect(async () => {
+    useEffect(() => {
+        fetchData();
+    }, []);
+
+    const fetchData = async () => {
         const url = 'https://raw.githubusercontent.com/nimpla/divi-report/master/date_grouped.csv';
         const response = await fetch(url);
         const data = await response.text();
@@ -21,7 +25,7 @@ const App = () => {
                 setData(result.data.filter(e => new Date(e.date) >= dateDiff));
             }
         });
-    }, [])
+    }
 
     const CustomTooltip = ({ active, payload, label }) => {
         if (active && payload && payload.length) {
